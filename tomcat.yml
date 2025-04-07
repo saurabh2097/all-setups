@@ -14,7 +14,7 @@
       tags: abc
 
     - name: install java
-      command: yum install java-1.8.0-openjdk -y
+      command: sudo yum install java-17-amazon-corretto -y
 
     - name: setting the roles in tomcat-user.xml file
       template:
